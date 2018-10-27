@@ -1,36 +1,8 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
 <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #F0B429;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #F0B429;
-
-}
-
-.active {
-    background-color: #005883;
-}
 
 footer {
             position: relative;
@@ -47,7 +19,6 @@ footer {
             color: #fff;
         }
 
-
 </style>
 </head>
 <body>
@@ -61,14 +32,22 @@ footer {
 <br>
 <br>
 <br>
-<ul>
-  <li><a class="active" href="#">Inicio</a></li>
-  <li><a href="paginas/objetivos.html">Ojbetivos</a></li>
-  <li><a href="paginas/conceptos.html">Conceptos</a></li>
-  <li><a href="paginas/participantes.html">Participantes</a></li>
+<div>
+<ul class="uno">
+  <li><a href="#">INICIO</a></li>
+  <li><a href="paginas/objetivos.html">OBJETIVOS</a></li>
+  <li><a href="#">CONCEPTOS</a>
+<ul class="dos">
+  <li><a href="paginas/seguridad.html">Seguridad</a></li>
+  <li><a href="paginas/hacking.html">Hacking</a></li>
+  <li><a href="paginas/sistemas.html">Sistemas</a></li>
+  <li><a href="paginas/tecnologias.html">Tecnologias</a></li>
 </ul>
+  </li>
+  <li><a href="paginas/participantes.html">INTEGRANTES</a></li>
+</ul>
+</div>
 <br>
-<ul>
 <table width="1350" cellspacing="1" cellpadding="3" border="0" bgcolor="#1E679A"> 
 <tr> 
    <td><font color="#FFFFFF" face="arial, verdana, helvetica"> 
